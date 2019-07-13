@@ -1,0 +1,137 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:url(book.jpeg);
+	background-size: cover;
+	font-family: sans-serif;
+		
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	color:white;
+	
+}
+.division{
+	background-color:white;
+	
+}
+.d1{
+	margin-left:0;
+	width:100%;
+	margin-top:0;
+	color:white;
+	padding-left:20;
+	opacity:.9;
+	background-color:black;
+	height:20px;
+	position:fixed;
+	z-index:99;
+	
+	
+	
+}
+.d2{
+	height:50px;
+	color:white;
+	opacity:.9;
+	background-color:black;
+	position:fixed;
+	z-index:99;
+	width:100%;
+	margin-top:20;
+	text-align:center;
+	
+}
+nav{
+
+	height:50px;
+	margin-top:70px;
+	position:fixed;
+	width:100%;
+	background-color:rgba(0,0,0,0.8);
+	z-index:99;
+	text-align:center;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+	line-height:50px;
+	width:12.5%;
+	float:left;
+	z-index:99;
+}
+nav a:hover{
+	transition:0.4s;
+	font-weight:bold;
+	background-color:white;
+	color:#000000;
+	border-radius:10px;
+	z-index:99;
+}
+.background-box{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    width: 900px;
+    height: 500px;
+    padding:80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.7); 
+	
+	
+}
+.contact{
+	padding-top:20px;
+	
+	
+}
+.contact h1 h2 h3{
+	
+	color:white;
+	font-family: bold;
+	
+}
+.background-box input
+{
+	width:100%;
+	margin-bottom: 20px;
+	
+}
+.background-box input[type="text"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline: none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	
+}
+::placeholder
+{
+	color: rgba(255,255,255,.7);
+}
+.background-box p{
+	color:white;
+	font-family: bold;
+	
+}
+.background-box input[type="submit"]
+{
+	border: none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size: 16px;
+	background: #1C4D41;
+	cursor: pointer;
+	border-radius:20px;
+}
+.background-box input[type="submit"]:hover
+{
+	background:#3BB295;
+	color:#262626;
+}
